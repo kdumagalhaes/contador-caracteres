@@ -1,0 +1,92 @@
+body{
+    background-color: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+    color: #3f3f44;
+}
+
+textarea:focus{
+    outline-style: none;
+}
+
+input:focus{
+    outline-style: none;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.mediumTitle{
+    color: #606060;
+}
+
+#main{
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+#main textarea{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    padding: 15px;
+    font-family: monospace;
+    color: #808080;
+    box-shadow: inset 4px 5px 40px #dcdcdc;
+    line-height: 1.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url('./img/linedpaper.png');
+
+}
+
+#numberCar{
+    background-color: tomato;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#myText{
+    border: 5px solid tomato;
+}
+
+.textCenter{
+    text-align: center;
+}
+
+#resetButton{
+    padding: 20px;
+    background-color: yellow;
+    margin: 20px 0 20px 0;
+    box-shadow: 3px 3px #b3b300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+}
+
+.borderRadius{
+    border-radius: 5px;
+}
+
+.signature{
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 20px;
+}
+
+.signature a{
+    color: tomato;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signature a:hover{
+    color: rgb(128, 38, 22);
+}
